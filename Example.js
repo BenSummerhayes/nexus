@@ -14,5 +14,5 @@ function init(){
  // this function does some stuff
  Example.prototype.exampleFunction = function() {
  
-      console.log('doing stuff!);
+      console.log('doing stuff!');
  }
