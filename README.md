@@ -1,5 +1,5 @@
 # nexus
-A javscript Lazy Loader
+A javscript & CSS Lazy Loader
 
 This one page script lazy loader is simple to use and is written in pure vanilla js
 
