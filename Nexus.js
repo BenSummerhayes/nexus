@@ -13,8 +13,8 @@ function Nexus(){
 	// Primary Load List, add the scripts you want to front load here (these will load in order!!)
 	this.primaryLoadList=[
 
-      "Example.js"
-      //,"AnotherExample.js"
+	      "Example.js"
+	      //,"AnotherExample.js"
 	];
 
 	// Secondary Load List, add the scripts you want to load AFTER the Primary list (these will load in order!!)
@@ -27,7 +27,7 @@ function Nexus(){
 	this.primaryCallbackList={
 
 		 loadExample: function(Nexus){Nexus.Example.exampleFunction()}
-    ,consoleLog: function(Nexus){console.log(Nexus)}
+		,consoleLog: function(Nexus){console.log(Nexus)}
 
 	};
 
